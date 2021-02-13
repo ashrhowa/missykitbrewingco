@@ -1,0 +1,131 @@
+body {
+	font-family: 'Major Mono Display', monospace;
+	background: url(assets/backgroundbottles.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+#about .card-text {
+	font-size: 11pt;
+	text-transform: lowercase;
+}
+
+.footer-logo {
+	font-family: 'Gloria Hallelujah', monospace;
+	text-align: center;
+	font-size: 4rem;
+	color: #d1d7e0;
+
+}
+
+.card {
+	box-sizing: border-box;
+	background-color: #d1d7e0;
+	border-style: solid;
+	border-width: 1rem;
+	border-color: #d1d7e0;
+	transition: all 400ms;
+	text-align: center;
+}
+/*img:hover { opacity: 0.7;
+}*/
+
+body,
+.container {
+}
+#mc_embed_signup {
+	background: #d1d7e0; 
+	clear: left; 
+	font: 14px "Major Mono Display", sans-serif; 
+}
+
+.buffer-head {
+	padding-top: 2rem;
+}
+.buffer-top {
+	padding-top: 4rem;
+}
+.container-foot-index {
+	padding-top: 3rem;
+}
+.container-foot-beer {
+	padding-top: 2rem;
+}
+.container-foot-about {
+	padding-top: 1rem;
+}
+.container-foot-about p {
+	margin-bottom: auto;
+}
+.button {
+	color: #d1d7e0
+}
+.header,
+h1 {
+	font-size: 4.5rem;
+	background-color: #d1d7e0;
+	text-align: center;
+}
+
+.subheading,
+h2 {
+	font-size: 3rem;
+	background-color: #d1d7e0;
+	color: black;
+	text-align: center;
+}
+.subheading {
+	max-height: 4rem;
+	max-width: 1296px;
+}
+.back-button {
+	/*text-align: left;*/
+	align-content: center;
+	padding-bottom: 8px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*a:hover {
+	color: black;
+}*/
+
+h1:hover {
+	background-color: #080F12;
+	color: #d1d7e0;
+}
+
+/*.card-body:hover {
+	background-color: #080F12;
+	color: #d1d7e0;
+}*/
+.card:hover {
+	transform: scale(1.04);
+	cursor: pointer;
+}
+.card:hover .card-body {
+	background-color: #080F12;
+	color: #d1d7e0;
+}
+img:hover {
+	opacity: 0.7;
+}
+.card:hover img {
+	opacity: 0.7;
+}
+.footer {
+	color: #d1d7e0;
+	width: 100%;
+	text-align: center;
+}
+#googlemap .card {
+	transform: scale(1);
+}
+/*.row {
+	--bs-gutter-x--: -1.5rem!important;
+}*/
+
